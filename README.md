@@ -1,1 +1,1 @@
-# SealCodeSL2017
+# SealCodeSL2017 Wojtek Jarzêbiñski
