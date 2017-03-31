@@ -1,0 +1,6 @@
+div.main{
+    width: 800px;
+    height: 600px;
+    display:inline-flex;
+    background-color: forestgreen;
+}

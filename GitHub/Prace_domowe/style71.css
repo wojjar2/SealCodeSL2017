@@ -1,0 +1,80 @@
+div {
+    height: 75px;
+    text-align: center;
+    vertical-align: text-bottom;
+    justify-content: center;
+}
+.box {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: baseline;
+    height: 300px;
+    width: 800px;
+    padding: 20px;
+    border:4px solid black;
+    
+}
+
+div.A{
+    flex-basis: 33.3%;
+    order: 3;
+    background-color: red;
+}
+div.B{
+    flex-basis: 31.3%;
+    order: 5;
+    background-color: blue;
+
+}
+div.C{
+    flex-basis: 33.3%;
+    order: 2;
+    background-color: green;
+
+}
+div.D{
+    flex-basis: 56.9%;
+    order: 11;
+    background-color: yellow;
+
+}
+div.E{
+    flex-basis: 32.3%;
+    order: 4;
+    background-color: orange;
+
+}
+div.F{
+    flex-basis: 33.3%;
+    order: 7;
+    background-color:blueviolet;
+
+}
+div.G{
+     flex-basis: 33.3%;
+    order: 9;
+    background-color:cyan;
+
+}
+div.H{
+     flex-basis: 36.3%;
+    order: 6;
+    background-color:deeppink;
+}
+div.I{
+    flex-basis: 33.3%;
+    order: 8;
+    background-color: brown;
+}
+div.J{
+    flex-basis: 33.3%;
+    order: 1;
+    background-color: dimgray;
+}
+div.K{
+    flex-basis: 43%;
+    order: 10;
+    background-color: hotpink;
+
+}
