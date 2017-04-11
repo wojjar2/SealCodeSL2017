@@ -19,10 +19,10 @@ var milisecond = d.getMilliseconds();
 var second = d.getSeconds();
 
 var daysOfWeek = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'];
-var months = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień'];
+var months  = ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "września", "października", "listopada", "grudnia"];
 
 par1.innerHTML = "Data, która pojawi się przy otwarciu tej strony to: " + daysOfWeek[day] + ", " + dayofmonth + ", " + months[month] + ", " + year + "r" + "<br />" + "Godzina w momencie otwarcia strony: " + hour + ":" + minute + ":" + second + ":" + milisecond ;
-
+var miesiac = ["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca","sierpnia","września","października","listopada","grudnia"]
 // paragraph-two
 var zdanie = "Podstawą szczęścia jest wolność, a podstawą wolności odwaga.";
 var podzial = zdanie.split(',');
