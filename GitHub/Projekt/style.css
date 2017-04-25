@@ -1,6 +1,66 @@
+div{
+    border-radius: 12px;
+}
+body {
+    background-color: darkgreen;
+}
 div.main{
+    background-color:seagreen;
+    border: solid 4px lightblue;
     width: 800px;
     height: 600px;
     display:inline-flex;
-    background-color: forestgreen;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 20px;
 }
+div.one{
+    order: 1;
+    flex-basis: 100%;
+    border: solid 3px lightblue;
+    flex-direction: row;
+    background-color: darkgreen;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.data{
+   flex-basis: 30%;
+    
+}
+div.dodaj{
+    flex-basis: 70%;
+}
+
+div.two{
+    flex-basis: 100%;
+    order: 2;
+    border: solid 3px lightblue;
+    background-color: seagreen;
+    line-height: 15px;
+}
+header{
+    align-self: flex-start;
+    flex-basis: 100%;
+    font-family: "Comic sans MS";
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+}
+button{
+  background-color: lightblue;  
+  border-radius: 9px;    
+}
+footer{
+    text-align: center;
+    align-self: flex-end;
+    order: 1;
+    flex-basis: 100%;
+}
+

@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Co masz do zrobienia ?</title>
     <meta name="Co masz do zrobienia " content="strona główna aplikacji"/>
-	<!--
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    /-->
 </head>
 
 <body>
     
     <div class='main'>
     <header>
-        <h1>
-        <img src="ToDoList.png" alt="Brakuje Obrazka ToDo" width="15%" height="15%"/>
-        Co masz do zrobienia ?
-        </h1>
+        <img src="ToDoList.png" alt="Brakuje Obrazka ToDo" width="10%" height="10%"/>
+        <h1>Co masz do zrobienia ?</h1>
     </header>
         <div class='one'>
-            <div class="one-inside">
-                <h2>Data
+                <div class='data'> 
+                    <h2><b>Data</b></h2>
+                    <label>Dzisiejsza Data</label>
+                </div>
+                <div class='dodaj'>
                     <h3>Masz coś jeszcze do zrobienia? Dodaj do listy zadań! <br>
                     Wpisz Zadanie i wćiśnij przycisk "Dodaj"!
+                        <br><button for="nowe_zadanie">Dodaj</button>
+                        <input type="text" id="nowe_zadanie" value="Wpisz nowe zadania">
                     </h3>
-                </h2>
-            </div>
-            
-            <div class="two">
-            <h1> Twoje zadania:</h1>
-                
-                <div class="two-inside">
-                Zadanie numer 1 <br><br>
                 </div>
-            
+            <div class="two">
+            <h4> Twoje zadania:</h4>
+                <button type="button">Usuń</button><label><input type="checkbox"> ZADANIE 1</label>
+                <br><button type="button">Usuń</button><label><input type="checkbox"> ZADANIE 2</label>
+                <br><button type="button">Usuń</button><label><input type="checkbox"> ZADANIE 3</label>
+                <br><br>
+                
+
             </div>
         </div>
     
@@ -42,7 +42,7 @@
       Aplikacje wykonał Wojtek Jarzębiński w ramach warsztatów Sealcode.
     </footer>   
   </div>
-  
+  <script src='script.js'></script>
 </body>
 
 </html>
