@@ -1,34 +1,37 @@
 div{
-    border-radius: 12px;
+    border-radius: 1rem;
 }
 body {
-    background-color: darkgreen;
+    background-color: #577160;
+    color: #383028;
 }
 div.main{
-    background-color:seagreen;
-    border: solid 4px lightblue;
-    width: 800px;
-    height: 600px;
-    display:inline-flex;
+    background-color:#9CB6A8;
+    border: solid 0.35rem lightblue;
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
-    padding: 20px;
+    padding: 1.8rem;
+    font-family: 'montserrat', sans-serif;
 }
 div.one{
     order: 1;
     flex-basis: 100%;
     border: solid 3px lightblue;
     flex-direction: row;
-    background-color: darkgreen;
-    padding: 25px;
+    background-color: #577160;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 3rem;
 }
 div.data{
    flex-basis: 30%;
+    margin: 2 rem;
     
 }
 div.dodaj{
@@ -39,16 +42,21 @@ div.two{
     flex-basis: 100%;
     order: 2;
     border: solid 3px lightblue;
-    background-color: seagreen;
-    line-height: 15px;
+    background-color: #9CB6A8;
+    line-height: 1rem;
 }
 header{
-    align-self: flex-start;
-    flex-basis: 100%;
     font-family: "Comic sans MS";
+    color: #b35a39;
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #475d4f;
+    border-radius: 1rem;
+    width: 65%;
 }
 
 
@@ -62,5 +70,6 @@ footer{
     align-self: flex-end;
     order: 1;
     flex-basis: 100%;
+    color:#b35a39;
 }
 
