@@ -60,10 +60,10 @@ header{
 }
 
 
-}
+
 button{
   background-color: lightblue;  
-  border-radius: 9px;    
+  border-radius: 1rem;    
 }
 footer{
     text-align: center;
